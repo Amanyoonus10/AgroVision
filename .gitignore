@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+**/venv/
+.venv/
+**/.venv/
+env/
+**/env/
+
+# Environment files
+.env
+*.env
+!.env.example
+
+# Model cache & artifacts
+model_cache/
+**/model_cache/
+
+# Node & Next.js
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+out/
+**/out/
+.vercel/
+**/.vercel/
+
+# IDE & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs & Tests
+*.log
+uploads/
+temp/
+.pytest_cache/
+.coverage
+htmlcov/
